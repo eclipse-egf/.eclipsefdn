@@ -29,4 +29,9 @@ orgs.newOrg('modeling.emf.egf', 'eclipse-egf') {
       delete_branch_on_merge: false,
     },
   ],
+} + {
+  # snippet added due to 'https://github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
+  _repositories+:: [
+    orgs.newRepo('.github')
+  ],
 }
