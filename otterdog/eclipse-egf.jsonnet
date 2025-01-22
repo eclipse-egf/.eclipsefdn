@@ -27,10 +27,6 @@ orgs.newOrg('modeling.emf.egf', 'eclipse-egf') {
       code_scanning_default_setup_enabled: true,
       default_branch: "master",
       delete_branch_on_merge: false,
-      web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "write",
-      },
     },
   ],
 }
