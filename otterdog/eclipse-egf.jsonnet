@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('modeling.emf.egf', 'eclipse-egf') {
+orgs.newOrg('modeling.egf', 'eclipse-egf') {
   settings+: {
     description: "",
     name: "Eclipse Generation Factories (EGF)",
